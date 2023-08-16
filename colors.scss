@@ -1,0 +1,82 @@
+@use "sass:color";
+
+// COLORS
+
+$tiffanyGreen: #b7ecd9;
+$darkGreen: #113428;
+$jungleGreen: #419d78;
+$viridianGreen: #3c8168;
+$pigmentGreen: #14a346;
+$limeGreen: #1ed12d;
+$white: #fff;
+$offWhite: #fcfcfc;
+$silverGray: #aaa;
+$jasperRed: #cd4631;
+$chestnutRed: #a44a3f;
+$mustardYellow: #fed53c;
+$cosmicLatteYellow: #fffae8;
+$sandyOrange: #f4a261;
+$orange: #ff773d;
+$ceruleanBlue: #407899;
+$azureBlue: #3185fc;
+$vistaBlue: #8093f1;
+$lightPurple: #7f95d1;
+$richBlack: #0d1117;
+$lightSkyBlue: #92cefa;
+$rustyRed: #D33F49;
+$nightBlack: #050F0C;
+
+// THEMING
+
+// light theme
+$light-background: $cosmicLatteYellow;
+$light-text: $richBlack;
+$light-background-code: $white;
+$light-highlight-heading: $richBlack;
+$light-background-table-odd: color.scale($cosmicLatteYellow, $lightness: -7%);
+$light-table-border: color.scale($cosmicLatteYellow, $lightness: -50%);
+$light-text-inverted: $white;
+$light-text-muted: color.scale($richBlack, $lightness: 50%);
+$light-highlight-error: $rustyRed;
+$light-highlight-error-border: color.scale($rustyRed, $lightness: -30%);
+$light-highlight-warning: $mustardYellow;
+$light-highlight-warning-border: color.scale($mustardYellow, $lightness: -30%);
+$light-highlight-success: $limeGreen;
+$light-highlight-success-border: color.scale($limeGreen, $lightness: -30%);
+$light-highlight-info: $lightSkyBlue;
+$light-highlight-info-border: color.scale($lightSkyBlue, $lightness: -30%);
+$light-highlight-text: $richBlack;
+$light-link: $azureBlue;
+$light-blue-table-border: $lightSkyBlue;
+$light-blue-table-background: color.scale($lightSkyBlue, $lightness: 70%);
+$light-blue-table-background-odd: color.scale($lightSkyBlue, $lightness: 50%);
+$light-green-table-border: $limeGreen;
+$light-green-table-background: color.scale($limeGreen, $lightness: 70%);
+$light-green-table-background-odd: color.scale($limeGreen, $lightness: 50%);
+
+// dark theme
+
+$dark-background: $darkGreen;
+$dark-text: $offWhite;
+$dark-background-code: $richBlack;
+$dark-highlight-heading: $cosmicLatteYellow;
+$dark-background-table-odd: color.scale($darkGreen, $lightness: -20%);
+$dark-table-border: color.scale($darkGreen, $lightness: -80%);
+$dark-text-inverted: $richBlack;
+$dark-text-muted: $silverGray;
+$dark-highlight-error: $rustyRed;
+$dark-highlight-error-border: color.scale($rustyRed, $lightness: -30%);
+$dark-highlight-warning: $mustardYellow;
+$dark-highlight-warning-border: color.scale($mustardYellow, $lightness: -30%);
+$dark-highlight-success: $limeGreen;
+$dark-highlight-success-border: color.scale($limeGreen, $lightness: -30%);
+$dark-highlight-info: $lightSkyBlue;
+$dark-highlight-info-border: color.scale($lightSkyBlue, $lightness: -20%);
+$dark-highlight-text: $richBlack;
+$dark-link: $azureBlue;
+$dark-blue-table-border: $lightSkyBlue;
+$dark-blue-table-background: color.scale($lightSkyBlue, $lightness: -70%);
+$dark-blue-table-background-odd: color.scale($lightSkyBlue, $lightness: -50%);
+$dark-green-table-border: $limeGreen;
+$dark-green-table-background: color.scale($limeGreen, $lightness: 70%);
+$dark-green-table-background-odd: color.scale($limeGreen, $lightness: 50%);
