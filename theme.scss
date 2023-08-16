@@ -76,11 +76,11 @@ section:where(:not([data-class])) {
   --color-green-table-background: #{$light-green-table-background};
   --color-green-table-background-odd: #{$light-green-table-background-odd};
 
-  --background-image: url("https://assets.nbeij.nl/marp/https://assets.nbeij.nl/marp/https://assets.nbeij.nl/marp/assets/logoLight.svg");
+  --background-image: url("https://assets.nbeij.nl/marp/assets/logoLight.svg");
 
   footer {
     a {
-      background-image: url("https://assets.nbeij.nl/marp/https://assets.nbeij.nl/marp/https://assets.nbeij.nl/marp/assets/logoCodecafeLight.png");
+      background-image: url("https://assets.nbeij.nl/marp/assets/logoCodecafeLight.png");
     }
   }
 }
@@ -347,15 +347,15 @@ section {
 
     &::before,
     &::after {
-      content: url("https://assets.nbeij.nl/marp/https://assets.nbeij.nl/marp/assets/quote.svg");
+      content: url("https://assets.nbeij.nl/marp/assets/quote.svg");
       height: auto;
       pointer-events: none;
       position: absolute;
       width: 1em;
       z-index: -1;
       background-color: var(--color-highlight-heading);
-      -webkit-mask-image: url("https://assets.nbeij.nl/marp/https://assets.nbeij.nl/marp/assets/quote.svg");
-      mask-image: url("https://assets.nbeij.nl/marp/https://assets.nbeij.nl/marp/assets/quote.svg");
+      -webkit-mask-image: url("https://assets.nbeij.nl/marp/assets/quote.svg");
+      mask-image: url("https://assets.nbeij.nl/marp/assets/quote.svg");
       -webkit-mask-repeat: no-repeat;
       mask-repeat: no-repeat;
       -webkit-mask-position: center;
